@@ -1,0 +1,32 @@
+package com.cattsoft.phonesale.struts;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+import org.apache.struts.actions.DispatchAction;
+
+import com.cattsoft.pub.util.StringUtil;
+import com.cattsoft.tm.struts.KbTopicAction;
+
+public class WeChatMsgAction extends DispatchAction{
+	
+	private static final Logger log = Logger.getLogger(WeChatMsgAction.class);
+	
+	public ActionForward receiveMsg(ActionMapping actionMapping,
+			ActionForm actionForm, HttpServletRequest req,
+			HttpServletResponse rep) {
+		String echostr=req.getParameter("echostr");
+		if(!StringUtil.isBlank(echostr)){
+			log.info("echo======================"+echostr);
+			com.cattsoft.webpub.util.ReqUtil.write(rep, echostr);
+		}
+		
+		return null;
+		
+	}
+
+}

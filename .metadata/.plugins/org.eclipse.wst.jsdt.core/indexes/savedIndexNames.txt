@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+/Users/xieyunchao/Workspaces/ws-phonesale/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3464159444.index
+143006291.index
+1957494258.index
+4094877583.index
+2099800326.index

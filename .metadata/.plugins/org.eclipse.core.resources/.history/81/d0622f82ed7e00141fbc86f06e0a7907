@@ -1,0 +1,12 @@
+package com.cattsoft.phonesale.vo;
+
+public class Msg {
+	private String ToUserName;
+	private String FromUserName;
+	private String CreateTime;
+	private String MsgType;
+	private String Content;
+	private String MsgId;
+	
+
+}

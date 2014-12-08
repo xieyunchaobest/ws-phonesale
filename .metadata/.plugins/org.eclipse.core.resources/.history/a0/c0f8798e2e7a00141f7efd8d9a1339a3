@@ -1,0 +1,28 @@
+package com.cattsoft.phonesale.struts;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+import org.apache.struts.actions.DispatchAction;
+
+import com.cattsoft.pub.util.StringUtil;
+
+public class WeChatMsgAction extends DispatchAction{
+	
+	
+	public ActionForward receiveMsg(ActionMapping actionMapping,
+			ActionForm actionForm, HttpServletRequest req,
+			HttpServletResponse rep) throws Exception {
+		String echostr=req.getParameter("echostr");
+		if(!StringUtil.isBlank(echostr)){
+			System.out.println(echostr);
+			com.cattsoft.webpub.util.ReqUtil.write(rep, echostr);
+		}
+		return null;
+		
+	}
+
+}

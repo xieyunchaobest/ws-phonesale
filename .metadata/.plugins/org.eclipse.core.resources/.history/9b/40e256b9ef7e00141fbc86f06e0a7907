@@ -1,0 +1,58 @@
+package com.cattsoft.webpub.util;
+
+import java.io.File;
+import java.util.Date;
+
+import org.jfree.util.Log;
+import org.w3c.dom.*; 
+
+import javax.xml.parsers.*; 
+
+import com.cattsoft.phonesale.vo.Msg;
+
+public class WeChatMessageUtil {
+	
+	public final static String text_type="text";
+	
+	public static String getResponeTxt(String toUser,String textTye,String text){
+		long currentTime=new Date().getTime();
+		String fromUser="nmltwfw";
+		String xml="<xml>"+
+				   "<ToUserName><![CDATA["+toUser+"]]></ToUserName>"+
+				   "<FromUserName><![CDATA["+fromUser+"]]></FromUserName>"+
+				   "<CreateTime>"+currentTime+"</CreateTime>"+
+				   "<MsgType><![CDATA["+textTye+"]]></MsgType>"+
+				   "<Content><![CDATA["+text+"]]></Content>"+
+				   "</xml>";
+		return xml;
+	}
+	
+	
+	public static  Msg getMsg(String xml) {
+		 xml="<xml>"+
+				   "<ToUserName><![CDATA[toUser]]></ToUserName>"+
+					" <FromUserName><![CDATA[fromUser]]></FromUserName>"+ 
+					 "<CreateTime>1348831860</CreateTime>"+
+					 "<MsgType><![CDATA[text]]></MsgType>"+
+					 "<Content><![CDATA[this is a test]]></Content>"+
+					 "<MsgId>1234567890123456</MsgId>"+
+					 "</xml>";
+		try {
+			DocumentBuilderFactory factory=DocumentBuilderFactory.newInstance();      
+			DocumentBuilder builder=factory.newDocumentBuilder();      
+			Document doc = builder.parse(xml);
+			String xx=doc.getElementsByTagName("ToUserName").item(0).getFirstChild().getNodeValue();
+			
+		}catch(Exception e) {
+			Log.error("parse xml error");
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public static void main(String args[]) {
+		String xml=WeChatMessageUtil.getResponeTxt("234234", text_type, "你好，此为测试消息！");
+		System.out.println("xml======="+xml);
+	}
+	
+}

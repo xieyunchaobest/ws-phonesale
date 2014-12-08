@@ -1,0 +1,14 @@
+#Tue Dec 02 20:21:04 CST 2014
+tomcat6Server.phonesale.IEARProjectName=
+tomcat6Server.phonesale.deploymentPath=/Applications/apache-tomcat-6.0.16/webapps/phonesale
+tomcat6Server.phonesale.isExploded=true
+tomcat6Server.phonesale.contextRoot=/phonesale
+tomcat6Server.phonesale.altContextRoot=
+tomcat6Server.phonesale.isUptoDate=true
+tomcat6Server.phonesale.shouldBackup=false
+tomcat6Server.phonesale.deployIsOverProject=false
+tomcat6Server.phonesale.shouldOverwrite=false
+tomcat6Server.phonesale.type=WebDeployment
+eclipse.preferences.version=1
+tomcat6Server.phonesale.isDeployed=true
+tomcat6Server.phonesale.noFileCopy=false

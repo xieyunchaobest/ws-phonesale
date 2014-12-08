@@ -1,0 +1,5 @@
+package com.cattsoft.phonesale.struts;
+
+public class WeChatMsgAction {
+
+}

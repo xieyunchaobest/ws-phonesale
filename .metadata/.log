@@ -1,0 +1,1152 @@
+!SESSION 2014-12-02 20:02:39.847 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -keyring /Users/xieyunchao/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/xieyunchao/.eclipse_keyring -showlocation
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.598
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/html/css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.623
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/html/forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.634
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/html/html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.644
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/html/htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.658
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/html/javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.674
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/jsp/jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.699
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/jsp/jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.718
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/jsp/struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.745
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/jsp/struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.770
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/jsp/struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-02 20:03:22.789
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/124/1/.cp/snippets/jsp/struts_tiles_snippets.xml
+
+!ENTRY org.tigris.subversion.clientadapter.javahl 1 0 2014-12-02 20:05:44.984
+!MESSAGE Failed to load JavaHL Library.
+These are the errors that were encountered:
+no libsvnjavahl-1 in java.library.path
+no svnjavahl-1 in java.library.path
+no svnjavahl in java.library.path
+java.library.path = .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+
+!ENTRY org.eclipse.ui 4 0 2014-12-02 20:05:47.267
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.wizard.WizardDialog.stopped(WizardDialog.java:1316)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1041)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.createProjects(WizardProjectsImportPage.java:1261)
+	at org.eclipse.ui.wizards.datatransfer.ExternalProjectImportWizard.performFinish(ExternalProjectImportWizard.java:113)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:827)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:432)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4125)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1465)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1270)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3971)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3610)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.handlers.WizardHandler$Import.executeHandler(WizardHandler.java:150)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:277)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:293)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.handlers.SlaveHandlerService.executeCommand(SlaveHandlerService.java:241)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:157)
+	at org.eclipse.ui.internal.actions.CommandAction.run(CommandAction.java:171)
+	at org.eclipse.ui.actions.ImportResourcesAction.run(ImportResourcesAction.java:97)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:168)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4125)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1465)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1270)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3971)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3610)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.osgi 2 0 2014-12-02 20:05:52.373
+!MESSAGE While loading class "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16", thread "Thread[Worker-7,5,main]" timed out waiting (5004ms) for thread "Thread[Worker-2,5,main]" to finish starting bundle "org.eclipse.wst.jsdt.core_1.1.100.me201109222040 [938]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/Applications/MyEclipse/Common/plugins/org.eclipse.wst.jsdt.core_1.1.100.me201109222040.jar" by thread "Worker-2".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 15 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-12-02 20:06:02.633
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+
+!ENTRY org.eclipse.wst.common.project.facet.core 2 0 2014-12-02 20:20:49.889
+!MESSAGE More than one declaration found for action type UNINSTALL of projet facet java 1.5.
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:38:24.816
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 341.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:38:27.359
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 342.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.referenceType(ObjectReferenceImpl.java:477)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:482)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:38:37.368
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 359.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:38:53.167
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 379.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.isSuspended(ThreadReferenceImpl.java:299)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:340)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:39:03.170
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 381.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValues(ObjectReferenceImpl.java:297)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValue(ObjectReferenceImpl.java:191)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:489)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:39:03.170
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 385.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:39:23.175
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 386.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:39:27.334
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 383.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.referenceType(ObjectReferenceImpl.java:477)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:482)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:39:37.337
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 384.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.isSuspended(ThreadReferenceImpl.java:299)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:340)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:39:37.338
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 401.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:39:47.341
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 400.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValues(ObjectReferenceImpl.java:297)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValue(ObjectReferenceImpl.java:191)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:489)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:39:47.341
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 411.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.status(ThreadReferenceImpl.java:442)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:323)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:39:47.342
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 408.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.referenceType(ObjectReferenceImpl.java:477)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:482)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:39:47.342
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 410.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.isSuspended(ThreadReferenceImpl.java:299)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:340)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:40:07.347
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 432.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValues(ObjectReferenceImpl.java:297)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValue(ObjectReferenceImpl.java:191)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:489)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:40:07.347
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 431.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.referenceType(ObjectReferenceImpl.java:477)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:482)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:40:27.357
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 430.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.referenceType(ObjectReferenceImpl.java:477)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:482)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:40:27.358
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 437.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 20:40:27.359
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 428.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.status(ThreadReferenceImpl.java:442)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:323)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 0 2014-12-02 22:12:30.472
+!MESSAGE Warning: Detected recursive attempt by part com.genuitec.eclipse.struts.editor.multipage.StrutsConfigEditor to create itself (this is probably, but not necessarily, a bug)
+!STACK 1
+org.eclipse.ui.PartInitException: Warning: Detected recursive attempt by part com.genuitec.eclipse.struts.editor.multipage.StrutsConfigEditor to create itself (this is probably, but not necessarily, a bug)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:586)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.EditorManager.findEditor(EditorManager.java:424)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2887)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2850)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2842)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2793)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2789)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2773)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2756)
+	at com.genuitec.eclipse.struts.editor.multipage.StrutsConfigEditor.init(StrutsConfigEditor.java:472)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:828)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2945)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2850)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2842)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2793)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2789)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2773)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2764)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:651)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:610)
+	at org.eclipse.ui.internal.ide.handlers.OpenResourceHandler.execute(OpenResourceHandler.java:129)
+	at org.eclipse.ui.internal.ide.handlers.OpenResourceHandler.run(OpenResourceHandler.java:181)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:289)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1069)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4124)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1465)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1494)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1490)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:463)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:1051)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5560)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:68)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:587)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5470)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:220)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2092)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2255)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5532)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:4986)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5135)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:128)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3607)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.ui 4 0 2014-12-02 22:12:30.473
+!MESSAGE Warning: Detected recursive attempt by part com.genuitec.eclipse.struts.editor.multipage.StrutsConfigEditor to create itself (this is probably, but not necessarily, a bug)
+
+!ENTRY org.eclipse.ui 4 0 2014-12-02 22:12:31.158
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.struts.editor.multipage.StrutsConfigEditor.getOutlinePage(StrutsConfigEditor.java:763)
+	at com.genuitec.eclipse.struts.editor.multipage.StrutsConfigEditor.dispose(StrutsConfigEditor.java:563)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:705)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2945)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2850)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2842)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2793)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2789)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2773)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2764)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:651)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:610)
+	at org.eclipse.ui.internal.ide.handlers.OpenResourceHandler.execute(OpenResourceHandler.java:129)
+	at org.eclipse.ui.internal.ide.handlers.OpenResourceHandler.run(OpenResourceHandler.java:181)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:289)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1069)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4124)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1465)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1494)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1490)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:463)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:1051)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5560)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:68)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:587)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5470)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:220)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2092)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2255)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5532)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:4986)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5135)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:128)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3607)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui 4 0 2014-12-02 22:12:31.161
+!MESSAGE Unable to create editor ID com.genuitec.eclipse.struts.editor.multipage.StrutsConfigEditor: Project phonesale is not configured as a MyEclipse Web-Struts Project. Therefore the MyEclipse Struts Editor may not be used with struts-config.xml. The default XML Editor has been used to open the file instead.
+!STACK 1
+org.eclipse.ui.PartInitException: Project phonesale is not configured as a MyEclipse Web-Struts Project. Therefore the MyEclipse Struts Editor may not be used with struts-config.xml. The default XML Editor has been used to open the file instead.
+	at com.genuitec.eclipse.struts.editor.multipage.StrutsConfigEditor.init(StrutsConfigEditor.java:476)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:828)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2945)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2850)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2842)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2793)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2789)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2773)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2764)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:651)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:610)
+	at org.eclipse.ui.internal.ide.handlers.OpenResourceHandler.execute(OpenResourceHandler.java:129)
+	at org.eclipse.ui.internal.ide.handlers.OpenResourceHandler.run(OpenResourceHandler.java:181)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:289)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1069)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4124)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1465)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1494)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1490)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:463)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:1051)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5560)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:68)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:587)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5470)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:220)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2092)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2255)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5532)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:4986)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5135)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:128)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3607)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.ui 4 0 2014-12-02 22:12:31.161
+!MESSAGE Project phonesale is not configured as a MyEclipse Web-Struts Project. Therefore the MyEclipse Struts Editor may not be used with struts-config.xml. The default XML Editor has been used to open the file instead.
+
+!ENTRY org.eclipse.ui 2 2 2014-12-02 22:12:31.176
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@c9394cf from part: org.eclipse.ui.internal.ErrorEditorPart@c9394cf
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:117)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:695)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:289)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2945)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2850)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2842)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2793)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2789)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2773)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2764)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:651)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:610)
+	at org.eclipse.ui.internal.ide.handlers.OpenResourceHandler.execute(OpenResourceHandler.java:129)
+	at org.eclipse.ui.internal.ide.handlers.OpenResourceHandler.run(OpenResourceHandler.java:181)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:289)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1069)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4124)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1465)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1494)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1490)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:463)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:1051)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5560)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:68)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:587)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5470)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:220)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2092)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2255)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5532)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:4986)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5135)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:128)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3607)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 23:01:12.932
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 7317.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValues(ObjectReferenceImpl.java:297)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValue(ObjectReferenceImpl.java:191)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:489)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 23:10:00.634
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 8377.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.status(ThreadReferenceImpl.java:442)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:323)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 23:16:12.340
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 8704.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValues(ObjectReferenceImpl.java:297)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValue(ObjectReferenceImpl.java:191)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:489)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-02 23:59:34.161
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 11450.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2014-12-08 20:30:53.156 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -keyring /Users/xieyunchao/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/xieyunchao/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-12-08 21:27:19.777
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2014-12-08 21:30:00.066
+!MESSAGE Resource is out of sync with the file system: '/phonesale/phonesale/WEB-INF/.DS_Store'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/phonesale/phonesale/WEB-INF/.DS_Store'.
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:269)
+	at org.eclipse.wst.sse.ui.internal.actions.FormatActionDelegate.processorAvailable(FormatActionDelegate.java:219)
+	at org.eclipse.wst.sse.ui.internal.actions.FormatActionDelegate.processorAvailable(FormatActionDelegate.java:232)
+	at org.eclipse.wst.sse.ui.internal.actions.ResourceActionDelegate.selectionChanged(ResourceActionDelegate.java:93)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:277)
+	at org.eclipse.ui.internal.ObjectActionContributor$1.run(ObjectActionContributor.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.ObjectActionContributor.contributeObjectActions(ObjectActionContributor.java:160)
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:97)
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:262)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:339)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:342)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:473)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:469)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:247)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4125)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1461)
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:805)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5522)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:73)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:277)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4048)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3603)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2014-12-08 21:30:00.067
+!MESSAGE Resource is out of sync with the file system: '/phonesale/phonesale/WEB-INF/.DS_Store'.
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-08 22:05:20.092
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 865.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValues(ObjectReferenceImpl.java:297)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.getValue(ObjectReferenceImpl.java:191)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:489)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:296)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-08 22:05:20.094
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 866.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2014-12-08 23:20:18.582
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 4226.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:171)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:180)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:177)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:208)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:223)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:553)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:1852)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:451)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:279)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:262)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:539)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:516)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:1876)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:154)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:104)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-12-08 23:34:12.032
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for Throwable [in Throwable.class [in java.lang [in /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2014-12-08 23:34:12.032
+!MESSAGE Timed out while retrieving the attached javadoc for Throwable [in Throwable.class [in java.lang [in /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-12-08 23:34:25.464
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for Throwable [in Throwable.class [in java.lang [in /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:643)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2014-12-08 23:34:25.464
+!MESSAGE Timed out while retrieving the attached javadoc for Throwable [in Throwable.class [in java.lang [in /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar]]] 
+!SESSION 2014-12-09 00:28:51.207 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -keyring /Users/xieyunchao/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/xieyunchao/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-12-09 00:29:07.494
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2

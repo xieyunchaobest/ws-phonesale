@@ -1,0 +1,5 @@
+package com.cattsoft.webpub.util;
+
+public class WeChatMessageUtil {
+
+}

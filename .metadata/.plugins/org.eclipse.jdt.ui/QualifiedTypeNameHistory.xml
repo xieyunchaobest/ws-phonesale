@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.cattsoft.pub.util.StringUtil"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
+<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilder"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.txw2.Document"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.jfree.util.Log"/>
+<fullyQualifiedTypeName name="java.io.StringReader"/>
+<fullyQualifiedTypeName name="com.cattsoft.webpub.util.WeChatMessageUtil"/>
+<fullyQualifiedTypeName name="com.cattsoft.phonesale.vo.Msg"/>
+</qualifiedTypeNameHistroy>

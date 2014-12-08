@@ -1,0 +1,7 @@
+<xml>
+	<ToUserName><![CDATA[234234]]></ToUserName>
+	<FromUserName><![CDATA[nmltwfw]]></FromUserName>
+	<CreateTime>1418051508119</CreateTime>
+	<MsgType><![CDATA[text]]></MsgType>
+	<Content><![CDATA[测试消息！]]></Content>
+</xml>
