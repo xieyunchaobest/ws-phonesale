@@ -1,0 +1,9 @@
+*.class
+phonesale/phonesale/WEB-INF/classes/
+.metadata/
+*.index
+*.eclise.*
+*.log
+mptokentest/
+
+

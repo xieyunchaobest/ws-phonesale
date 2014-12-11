@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="41" version="2.0">
+<workbench progressCount="44" version="2.0">
 <workbenchAdvisor/>
 <window height="772" maximized="true" width="1434" x="5" y="39">
 <fastViewData fastViewLocation="1024"/>
@@ -27,6 +27,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -48,13 +49,23 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeChatMsgAction.java" partName="WeChatMsgAction.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/com/cattsoft/phonesale/struts/WeChatMsgAction.java" title="WeChatMsgAction.java" tooltip="phonesale/src/com/cattsoft/phonesale/struts/WeChatMsgAction.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeChatMsgAction.java" partName="WeChatMsgAction.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/com/cattsoft/phonesale/struts/WeChatMsgAction.java" title="WeChatMsgAction.java" tooltip="phonesale/src/com/cattsoft/phonesale/struts/WeChatMsgAction.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/phonesale/src/com/cattsoft/phonesale/struts/WeChatMsgAction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1625" selectionTopPixel="104"/>
+<editorState selectionHorizontalPixel="0" selectionLength="74" selectionOffset="635" selectionTopPixel="0"/>
 </editor>
 <editor id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="log4j.properties" partName="log4j.properties" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/log4j.properties" title="log4j.properties" tooltip="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/log4j.properties" workbook="DefaultEditorWorkbook">
 <input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/phonesale/src/log4j.properties"/>
@@ -72,6 +83,44 @@
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeChatMessageUtil.java" partName="WeChatMessageUtil.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/com/cattsoft/webpub/util/WeChatMessageUtil.java" title="WeChatMessageUtil.java" tooltip="phonesale/src/com/cattsoft/webpub/util/WeChatMessageUtil.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/phonesale/src/com/cattsoft/webpub/util/WeChatMessageUtil.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="162" selectionOffset="2791" selectionTopPixel="742"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Menu.java" partName="Menu.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/com/cattsoft/phonesale/menu/Menu.java" title="Menu.java" tooltip="phonesale/src/com/cattsoft/phonesale/menu/Menu.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/phonesale/src/com/cattsoft/phonesale/menu/Menu.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1122" selectionTopPixel="83"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TokenThread.java" partName="TokenThread.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/mptokentest/src/org/liufeng/weixin/thread/TokenThread.java" title="TokenThread.java" tooltip="mptokentest/src/org/liufeng/weixin/thread/TokenThread.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mptokentest/src/org/liufeng/weixin/thread/TokenThread.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="901" selectionTopPixel="112"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeixinUtil.java" partName="WeixinUtil.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/mptokentest/src/org/liufeng/weixin/util/WeixinUtil.java" title="WeixinUtil.java" tooltip="mptokentest/src/org/liufeng/weixin/util/WeixinUtil.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mptokentest/src/org/liufeng/weixin/util/WeixinUtil.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1618" selectionTopPixel="123"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MenuItem.java" partName="MenuItem.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/com/cattsoft/phonesale/menu/MenuItem.java" title="MenuItem.java" tooltip="phonesale/src/com/cattsoft/phonesale/menu/MenuItem.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/phonesale/src/com/cattsoft/phonesale/menu/MenuItem.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="731" selectionTopPixel="112"/>
+</editor>
+<editor id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" partName="web.xml" path="/Users/xieyunchao/Workspaces/ws-phonesale/mptokentest/WebRoot/WEB-INF/web.xml" title="web.xml" tooltip="/Users/xieyunchao/Workspaces/ws-phonesale/mptokentest/WebRoot/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/mptokentest/WebRoot/WEB-INF/web.xml"/>
+</editor>
+<editor id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" partName="web.xml" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/phonesale/WEB-INF/web.xml" title="web.xml" tooltip="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/phonesale/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/phonesale/phonesale/WEB-INF/web.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InitServlet.java" partName="InitServlet.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/com/cattsoft/phonesale/struts/InitServlet.java" title="InitServlet.java" tooltip="phonesale/src/com/cattsoft/phonesale/struts/InitServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/phonesale/src/com/cattsoft/phonesale/struts/InitServlet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="960" selectionTopPixel="57"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TokenThread.java" partName="TokenThread.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/com/cattsoft/phonesale/struts/TokenThread.java" title="TokenThread.java" tooltip="phonesale/src/com/cattsoft/phonesale/struts/TokenThread.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/phonesale/src/com/cattsoft/phonesale/struts/TokenThread.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="583" selectionTopPixel="150"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TokenThread.java" partName="TokenThread.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/com/cattsoft/phonesale/vo/TokenThread.java" title="TokenThread.java" tooltip="phonesale/src/com/cattsoft/phonesale/vo/TokenThread.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/phonesale/src/com/cattsoft/phonesale/vo/TokenThread.java"/>
+<editorState selectionHorizontalPixel="68" selectionLength="0" selectionOffset="553" selectionTopPixel="169"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeixinUtil.java" partName="WeixinUtil.java" path="/Users/xieyunchao/Workspaces/ws-phonesale/phonesale/src/com/cattsoft/pub/util/WeixinUtil.java" title="WeixinUtil.java" tooltip="phonesale/src/com/cattsoft/pub/util/WeixinUtil.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/phonesale/src/com/cattsoft/pub/util/WeixinUtil.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="1069" selectionTopPixel="456"/>
 </editor>
 </editors>
 <views>
@@ -103,7 +152,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (100 of 4054 items)"/>
+<category IMemento.internal.id="Warnings (100 of 4055 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -112,6 +161,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="1" linkWithEditor="1" rootMode="1" workingSetName="">
@@ -142,9 +194,6 @@
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
 </view>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
@@ -245,7 +294,6 @@
 <view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <fastViewBars/>
 <layout>
@@ -264,11 +312,9 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24912526" ratioLeft="356" ratioRight="1073" relationship="2" relative="cvslocation"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@377f8716" ratio="0.7490775" ratioLeft="609" ratioRight="204" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@157dd1d1" ratio="0.5490483" ratioLeft="375" ratioRight="308" relationship="4" relative="org.eclipse.ui.internal.ViewStack@377f8716">
@@ -279,7 +325,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.80171186" ratioLeft="562" ratioRight="139" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.7517832" ratioLeft="527" ratioRight="174" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -401,32 +447,23 @@
 <view id="org.eclipse.debug.ui.ExpressionView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7498253" ratioLeft="1073" ratioRight="358" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7498253" ratioLeft="1073" ratioRight="358" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.75" ratioLeft="528" ratioRight="176" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.75" ratioLeft="528" ratioRight="176" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.genuitec.javascript.debug.ui.scriptView" label="JavaScript Scripts Inspector"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
@@ -437,33 +474,26 @@
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
 <page content="org.eclipse.wst.xsl.jaxp.debug.ui.view1" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.3659004" ratioLeft="191" ratioRight="331" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7498253" ratioLeft="1073" ratioRight="358" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7498253" ratioLeft="1073" ratioRight="358" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <page content="org.eclipse.atf.mozilla.ide.ui.views.inspector" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.4996506" ratioLeft="715" ratioRight="716" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.4996506" ratioLeft="715" ratioRight="716" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.eclipse.atf.mozilla.ide.debug.ui.scriptview" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
@@ -476,160 +506,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/phonesale/src/com/cattsoft/phonesale/struts/WeChatMsgAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/phonesale/src/com/cattsoft/webpub/util/WeChatMessageUtil.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/phonesale/src/com/cattsoft/phonesale/vo/Msg.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/phonesale/src/com/cattsoft/tm/struts/ZSJFAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mptokentest/src/org/liufeng/weixin/util/WeixinUtil.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/phonesale/src/com/cattsoft/phonesale/struts/InitServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/phonesale/src/com/cattsoft/phonesale/struts/TokenThread.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/phonesale/src/com/cattsoft/phonesale/vo/AccessToken.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/phonesale/src/com/cattsoft/phonesale/vo/TokenThread.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/phonesale/src/com/cattsoft/pub/util/WeixinUtil.java"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" path="/phonesale/phonesale/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=phonesale/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.lang(Thread.class"/>
 </editors>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="327" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="364" y="6"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="276" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="364" y="6"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="571" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="635" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="431" y="5"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="453" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="659" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="364" y="6"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="659" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="248" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="314" y="6"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="296" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="486" y="11"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="430" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="486" y="11"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="AccessToken.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="486" y="11"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="569" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="486" y="11"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="413" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="1127" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="4">
+<position info="not_deleted" x="557" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="364" y="6"/>
 </item>
-<item historyLabel="Msg.java" index="2">
-<position info="not_deleted" x="288" y="13"/>
+<item historyLabel="TokenThread.java" index="4">
+<position info="not_deleted" x="557" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="4">
+<position info="not_deleted" x="285" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="4">
+<position info="not_deleted" x="265" y="6"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="TokenThread.java" index="4">
+<position info="not_deleted" x="510" y="0"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position/>
+<item historyLabel="TokenThread.java" index="4">
+<position info="not_deleted" x="553" y="0"/>
 </item>
-<item historyLabel="ZSJFAction.java" index="3">
-<position info="not_deleted" x="9155" y="447"/>
+<item historyLabel="WeixinUtil.java" index="5">
+<position info="not_deleted" x="1069" y="14"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position/>
+<item historyLabel="WeixinUtil.java" index="5">
+<position info="not_deleted" x="714" y="6"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position/>
+<item historyLabel="WeixinUtil.java" index="5">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1094" y="12"/>
+<item historyLabel="WeixinUtil.java" index="5">
+<position info="not_deleted" x="1057" y="11"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1423" y="0"/>
+<item historyLabel="WeixinUtil.java" index="5">
+<position info="not_deleted" x="2713" y="0"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1140" y="3"/>
+<item historyLabel="WeixinUtil.java" index="5">
+<position info="not_deleted" x="2153" y="0"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1159" y="0"/>
+<item historyLabel="WeixinUtil.java" index="0">
+<position info="not_deleted" x="1618" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="WeixinUtil.java" index="5">
+<position info="not_deleted" x="2153" y="0"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1159" y="0"/>
+<item historyLabel="WeixinUtil.java" index="5">
+<position info="not_deleted" x="752" y="0"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1172" y="0"/>
+<item historyLabel="WeixinUtil.java" index="5">
+<position info="not_deleted" x="2223" y="18"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="WeixinUtil.java" index="5">
+<position info="not_deleted" x="1069" y="14"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1169" y="0"/>
+<item historyLabel="web.xml" index="6"/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="973" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position/>
+<item historyLabel="Thread.class" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1316" y="0"/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="961" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position info="not_deleted" x="860" y="0"/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="491" y="0"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1316" y="0"/>
+<item historyLabel="AccessToken.java" index="3">
+<position info="not_deleted" x="118" y="11"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1273" y="0"/>
+<item historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="469" y="0"/>
 </item>
-<item historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1300" y="0"/>
+<item historyLabel="InitServlet.java" index="1">
+<position info="not_deleted" x="960" y="0"/>
 </item>
-<item historyLabel="WeChatMessageUtil.java" index="1">
-<position info="not_deleted" x="2791" y="162"/>
-</item>
-<item active="true" historyLabel="WeChatMsgAction.java" index="0">
-<position info="not_deleted" x="1300" y="0"/>
+<item active="true" historyLabel="TokenThread.java" index="2">
+<position info="not_deleted" x="263" y="11"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -642,7 +674,6 @@
 </trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@377f8716"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@157dd1d1"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
@@ -656,6 +687,42 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Thread.class" tooltip="java.lang.Thread">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=phonesale/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.lang(Thread.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeixinUtil.java" tooltip="phonesale/src/com/cattsoft/pub/util/WeixinUtil.java">
+<persistable path="/phonesale/src/com/cattsoft/pub/util/WeixinUtil.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TokenThread.java" tooltip="phonesale/src/com/cattsoft/phonesale/vo/TokenThread.java">
+<persistable path="/phonesale/src/com/cattsoft/phonesale/vo/TokenThread.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AccessToken.java" tooltip="phonesale/src/com/cattsoft/phonesale/vo/AccessToken.java">
+<persistable path="/phonesale/src/com/cattsoft/phonesale/vo/AccessToken.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TokenThread.java" tooltip="phonesale/src/com/cattsoft/phonesale/struts/TokenThread.java">
+<persistable path="/phonesale/src/com/cattsoft/phonesale/struts/TokenThread.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InitServlet.java" tooltip="phonesale/src/com/cattsoft/phonesale/struts/InitServlet.java">
+<persistable path="/phonesale/src/com/cattsoft/phonesale/struts/InitServlet.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" tooltip="phonesale/phonesale/WEB-INF/web.xml">
+<persistable path="/phonesale/phonesale/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" tooltip="mptokentest/WebRoot/WEB-INF/web.xml">
+<persistable path="/mptokentest/WebRoot/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MenuItem.java" tooltip="phonesale/src/com/cattsoft/phonesale/menu/MenuItem.java">
+<persistable path="/phonesale/src/com/cattsoft/phonesale/menu/MenuItem.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeixinUtil.java" tooltip="mptokentest/src/org/liufeng/weixin/util/WeixinUtil.java">
+<persistable path="/mptokentest/src/org/liufeng/weixin/util/WeixinUtil.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TokenThread.java" tooltip="mptokentest/src/org/liufeng/weixin/thread/TokenThread.java">
+<persistable path="/mptokentest/src/org/liufeng/weixin/thread/TokenThread.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Menu.java" tooltip="phonesale/src/com/cattsoft/phonesale/menu/Menu.java">
+<persistable path="/phonesale/src/com/cattsoft/phonesale/menu/Menu.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeChatMessageUtil.java" tooltip="phonesale/src/com/cattsoft/webpub/util/WeChatMessageUtil.java">
 <persistable path="/phonesale/src/com/cattsoft/webpub/util/WeChatMessageUtil.java"/>
 </file>
@@ -664,42 +731,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="vo.java" tooltip="phonesale/src/com/cattsoft/phonesale/vo.java">
 <persistable path="/phonesale/src/com/cattsoft/phonesale/vo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="a.xml" tooltip="phonesale/src/com/cattsoft/webpub/util/a.xml">
-<persistable path="/phonesale/src/com/cattsoft/webpub/util/a.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="sys_config.properties" tooltip="phonesale/src/sys_config.properties">
-<persistable path="/phonesale/src/sys_config.properties"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReqUtil.java" tooltip="phonesale/src/com/cattsoft/webpub/util/ReqUtil.java">
-<persistable path="/phonesale/src/com/cattsoft/webpub/util/ReqUtil.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ZSJFAction.java" tooltip="phonesale/src/com/cattsoft/tm/struts/ZSJFAction.java">
-<persistable path="/phonesale/src/com/cattsoft/tm/struts/ZSJFAction.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="log4j.properties" tooltip="phonesale/src/log4j.properties">
-<persistable path="/phonesale/src/log4j.properties"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeChatMsgAction.java" tooltip="phonesale/src/com/cattsoft/phonesale/struts/WeChatMsgAction.java">
-<persistable path="/phonesale/src/com/cattsoft/phonesale/struts/WeChatMsgAction.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="KbTopicAction.java" tooltip="phonesale/src/com/cattsoft/tm/struts/KbTopicAction.java">
-<persistable path="/phonesale/src/com/cattsoft/tm/struts/KbTopicAction.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="KbForumForm.java" tooltip="phonesale/src/com/cattsoft/tm/struts/KbForumForm.java">
-<persistable path="/phonesale/src/com/cattsoft/tm/struts/KbForumForm.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAction.java" tooltip="phonesale/src/com/cattsoft/im/struts/TestAction.java">
-<persistable path="/phonesale/src/com/cattsoft/im/struts/TestAction.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IMos2RmsServiceLocator.java" tooltip="phonesale/src/com/cattsoft/im/service/webservice/client/IMos2RmsServiceLocator.java">
-<persistable path="/phonesale/src/com/cattsoft/im/service/webservice/client/IMos2RmsServiceLocator.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IM4MOSServices_PortType.java" tooltip="phonesale/src/com/cattsoft/im/service/webservice/client/IM4MOSServices_PortType.java">
-<persistable path="/phonesale/src/com/cattsoft/im/service/webservice/client/IM4MOSServices_PortType.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="NativeMethodAccessorImpl.class" tooltip="sun.reflect.NativeMethodAccessorImpl">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=phonesale/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;sun.reflect(NativeMethodAccessorImpl.class"/>
 </file>
 </mruList>
 </workbench>

@@ -36,6 +36,22 @@
 		</init-param>
 		<load-on-startup>2</load-on-startup>
 	</servlet>
+	<servlet>
+		<servlet-name>initServlet</servlet-name>
+		<servlet-class>
+			com.cattsoft.phonesale.struts.InitServlet
+		</servlet-class>
+		<!-- 配置获取access_token所需参数appid和appsecret -->
+		<init-param>
+			<param-name>appid</param-name>
+			<param-value>wxd55d712d4731636f</param-value>
+		</init-param>
+		<init-param>
+			<param-name>appsecret</param-name>
+			<param-value>c1b5f1260d402f6e90433bc6145c554d</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
 
 
 	<servlet>

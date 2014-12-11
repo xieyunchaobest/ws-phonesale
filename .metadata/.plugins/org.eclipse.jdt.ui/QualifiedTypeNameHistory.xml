@@ -10,4 +10,10 @@
 <fullyQualifiedTypeName name="java.io.StringReader"/>
 <fullyQualifiedTypeName name="com.cattsoft.webpub.util.WeChatMessageUtil"/>
 <fullyQualifiedTypeName name="com.cattsoft.phonesale.vo.Msg"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.cattsoft.phonesale.menu.MenuItem"/>
+<fullyQualifiedTypeName name="com.cattsoft.pub.util.WeixinUtil"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="com.cattsoft.phonesale.vo.AccessToken"/>
+<fullyQualifiedTypeName name="com.cattsoft.phonesale.struts.MyX509TrustManager"/>
 </qualifiedTypeNameHistroy>
