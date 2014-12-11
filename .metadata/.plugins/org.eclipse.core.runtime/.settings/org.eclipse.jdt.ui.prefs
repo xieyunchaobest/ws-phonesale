@@ -1,4 +1,4 @@
-#Wed Dec 10 00:47:26 CST 2014
+#Thu Dec 11 23:10:57 CST 2014
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
 smart_semicolon=true
@@ -18,5 +18,5 @@ org.eclipse.jdt.ui.formatterprofiles.version=12
 content_assist_number_of_computers=17
 useQuickDiffPrefPage=true
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.cattsoft.phonesale.menu.MenuItem"><rhs name\="com.cattsoft.phonesale.menu.MenuItem"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.cattsoft.phonesale.menu.MenuItem"><rhs name\="com.cattsoft.phonesale.menu.MenuItem"/></lhs><lhs name\="org.apache.struts.actions.DispatchAction"><rhs name\="com.cattsoft.phonesale.struts.WeChatMsgAction"/></lhs><lhs name\="org.apache.struts.actions.BaseAction"><rhs name\="com.cattsoft.phonesale.struts.WeChatMsgAction"/></lhs><lhs name\="org.apache.struts.action.Action"><rhs name\="com.cattsoft.phonesale.struts.WeChatMsgAction"/></lhs><lhs name\="com.cattsoft.phonesale.struts.WeChatMsgAction"><rhs name\="com.cattsoft.phonesale.struts.WeChatMsgAction"/></lhs><lhs name\="java.util.Map"><rhs name\="com.alibaba.fastjson.JSONObject"/></lhs><lhs name\="com.alibaba.fastjson.JSONAware"><rhs name\="com.alibaba.fastjson.JSONObject"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="com.alibaba.fastjson.JSONObject"/></lhs><lhs name\="java.lang.reflect.InvocationHandler"><rhs name\="com.alibaba.fastjson.JSONObject"/></lhs><lhs name\="com.alibaba.fastjson.JSON"><rhs name\="com.alibaba.fastjson.JSONObject"/></lhs><lhs name\="com.alibaba.fastjson.JSONStreamAware"><rhs name\="com.alibaba.fastjson.JSONObject"/></lhs><lhs name\="com.alibaba.fastjson.JSONObject"><rhs name\="com.alibaba.fastjson.JSONObject"/></lhs></history>
 org.eclipse.jdt.ui.text.code_templates_migrated=true

@@ -45,17 +45,17 @@ public class WeixinUtil {
 		AccessToken accessToken = null;
 
 		String requestUrl = access_token_url.replace("APPID", appid).replace("APPSECRET", appsecret);
-		JSONObject jsonObject = httpRequest(requestUrl, "GET", null);
+		com.alibaba.fastjson.JSONObject jsonObject = httpRequest(requestUrl, "GET", null);
 		// 如果请求成功
 		if (null != jsonObject) {
 			try {
 				accessToken = new AccessToken();
 				accessToken.setToken(jsonObject.getString("access_token"));
-				accessToken.setExpiresIn(jsonObject.getInt("expires_in"));
+				accessToken.setExpiresIn(jsonObject.getIntValue("expires_in"));
 			} catch (JSONException e) {
 				accessToken = null;
 				// 获取token失败
-				log.error("获取token失败 errcode:{} errmsg:{}="+jsonObject.getInt("errcode")+"    "+ jsonObject.getString("errmsg"));
+				log.error("获取token失败 errcode:{} errmsg:{}="+jsonObject.getIntValue("errcode")+"    "+ jsonObject.getString("errmsg"));
 			}
 		}
 		return accessToken;
@@ -69,8 +69,8 @@ public class WeixinUtil {
 	 * @param outputStr 提交的数据
 	 * @return JSONObject(通过JSONObject.get(key)的方式获取json对象的属性值)
 	 */
-	public static JSONObject httpRequest(String requestUrl, String requestMethod, String outputStr) {
-		JSONObject jsonObject = null;
+	public static com.alibaba.fastjson.JSONObject httpRequest(String requestUrl, String requestMethod, String outputStr) {
+		com.alibaba.fastjson.JSONObject jsonObject = null;
 		StringBuffer buffer = new StringBuffer();
 		try {
 			// 创建SSLContext对象，并使用我们指定的信任管理器初始化
@@ -116,7 +116,7 @@ public class WeixinUtil {
 			inputStream.close();
 			inputStream = null;
 			httpUrlConn.disconnect();
-			jsonObject = JSONObject.fromObject(buffer.toString());
+			jsonObject = com.alibaba.fastjson.JSONObject.parseObject(buffer.toString());
 		} catch (ConnectException ce) {
 			log.error("Weixin server connection timed out.");
 		} catch (Exception e) {
